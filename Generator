@@ -1,4 +1,4 @@
-#ShadeCoin implementation for auto-generation during dreams.
-#Replaces legacy DreamCoinMiner
-#See Also: README
-#See Also: ShadeCoinPublicAPI.qnl
+@deprecated
+
+#See README
+#See ShadeCoinPublicAPI.qnl
