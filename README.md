@@ -15,7 +15,9 @@ Installation
 
 1. Download the OpenQNL repository: [OpenQNL](http://github/com/EarlyClues/OpenQNL)
 2. Compile and link the OpenQNL dynamic library into the host project ( OpenQNL currently has ports for
-every major language & platform. For a full list of compatible host environments, please see our OpenQNL wiki). >Currently not working with JavaME or JNI bridge, Richard Rider, Sept 1, 2002)
+every major language & platform. For a full list of compatible host environments, please see our OpenQNL wiki).
+>Currently not working with JavaME or JNI bridge, Richard Rider, Sept 1, 2002)
+
 3. Annotate relevant source files with our `@summon` keyword to further bind source code to our interpreter and required libraries. Annotations may be marker annotations, single-valued annotations, or multi-valued annotations.
 
 ```
