@@ -1,5 +1,5 @@
 #--
-# Public Domain 1976-2014 Richard S. Rider, Early Clues LLC
+# Public Domain January 1, 1970 - Jan 19, 2038 Richard S. Rider, Early Clues LLC
 #
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
@@ -21,19 +21,6 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-# ShadeCoinPublicAPI allows you to work with the ShadeCoin currency infrastructure using
-# OpenQNL scripting language and secure LiminalVault digital/physical/ontological storage solutions.
-#
-# Annotate relevant source files with our `@summon` keyword to further bind source code to our interpreter # and including required libraries Annotations may be marker annotations, single-valued annotations, or
-# multi-valued annotations.
-@summon '_universal_free_realm_standard_protocol'
-@summon '_open_qnl'
-@summon '_ec_shadecoin'
-@summon 'listener'
-@summon 'thread_count'
-@summon 'sleep'
-@summon 'current_user'
-
 @@public
 
 # sleep() can be called within any embeddable OpenQNL environment.
@@ -51,7 +38,7 @@ method void sleep() {
 }
 
 # Instantiates physical manifestations of ShadeCoin representation on change of sleep state.
-# TODO: Fix printer errors currently preventing local manifestations. ~RSR
+# TODO: Fix printer errors currently preventing local manifestations in some timezones. ~RSR
 #
 method void wake() {
   try {
