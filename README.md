@@ -8,7 +8,7 @@ Individual units are stored in our open source LiminalVault, and their total val
 Getting Started
 ===============
 
-Welcome to ShadeCoin. We pride ourselves on a lightweight, dynamic, easy-to-uer codebase which can handle all the needs of even the most demanding alternative currency netizen. The full specturem of our ShadeCoin Public API is contained within, but with jut a few lines of [OpenQNL](http://github/com/EarlyClues/OpenQNL) *anyone* can instantly have their overnight deposit box mining ShadeCoin on `sleep()`.
+Welcome to ShadeCoin. We pride ourselves on a lightweight, dynamic, easy-to-use codebase which can handle all the needs of even the most demanding alternative currency netizen. The full specturem of our ShadeCoin Public API is contained within, but with jut a few lines of [OpenQNL](http://github/com/EarlyClues/OpenQNL) *anyone* can instantly have their overnight deposit box mining ShadeCoin on `sleep()`.
 
 Installation
 ============
